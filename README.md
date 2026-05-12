@@ -21,7 +21,7 @@ This is my solution to the [Social links profile challenge on Frontend Mentor](h
 ### Screenshot
 
 ![](assets/images/social-links-project-scr1.png)
-~
+
 ### Links
 
 - Solution URL: [https://github.com/VoRteX16N123/social-links-profile-project/tree/main]
@@ -45,5 +45,3 @@ This is my solution to the [Social links profile challenge on Frontend Mentor](h
 
 - Website - [George Kiriakidis](https://github.com/VoRteX16N123)
 - Frontend Mentor - [@VoRteX16N123](https://www.frontendmentor.io/profile/VoRteX16N123)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
