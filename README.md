@@ -21,11 +21,11 @@ This is my solution to the [Social links profile challenge on Frontend Mentor](h
 ### Screenshot
 
 ![](assets/images/social-links-project-scr1.png)
-
+~
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/VoRteX16N123/social-links-profile-project/tree/main]
+- Live Site URL: [https://vortex16n123.github.io/social-links-profile-project/] 
 
 ## My process
 
