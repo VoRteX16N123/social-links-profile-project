@@ -1,0 +1,252 @@
+/* Custom Properties */
+:root{
+    --clr-primary-900: hsl(0, 0%, 8%);
+    --clr-primary-800: hsl(0, 0%, 12%);
+    --clr-primary-700: hsl(0, 0%, 20%);
+
+    --clr-secondary-200: hsl(75, 94%, 57%);
+    --clr-secondary-100: hsl(0, 0%, 100%);
+
+    --ff-primary: "Inter", sans-serif;
+
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+/* CSS reset */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* This makes the place-content: center for body work
+because it sets both the <html> and <body> elements to 
+take up the full height of the viewport*/
+html, body {
+    height: 100%;
+}
+
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Increase line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* General Styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+
+    color: var(--clr-secondary-100);
+    background-color: var(--clr-primary-900);
+
+    display: grid;
+    place-content: center;
+}
+
+.profile {
+    --content-padding: 1.5rem;
+    --content-gap: 1rem;
+
+    background-color: var(--clr-primary-800);
+
+    border-radius: 1rem;
+    overflow: hidden;
+
+    margin: 0 1rem;
+    margin-top: 120px;
+    max-width: 600px;
+
+    width: min(24rem, calc(100% - 2rem));
+
+}
+
+.profile__content {
+    display: grid;
+
+    padding: var(--content-padding);
+    gap: var(--content-gap);
+
+    max-width: 375px;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: var(--content-gap);
+}
+
+/* Buttons styling */
+.button {
+    padding: 0.8rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+
+    color: var(--clr-secondary-100);
+    background-color: var(--clr-primary-700);
+    font-weight: var(--fw-semi-bold);
+
+    cursor: pointer;
+}
+
+button:is(:hover, :focus) {
+    background-color: var(--clr-secondary-200);
+    color: var(--clr-primary-900);
+}
+
+
+img {
+    width: 88px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.profile__person {
+    font-weight: var(--fw-semi-bold);
+    font-size: 1.5rem;
+
+    margin-top: 1.5rem;
+}
+
+.profile__location {
+    font-weight: var(--fw-semi-bold);
+    font-size: 1em;
+    color: var(--clr-secondary-200);
+}
+
+.profile__description {
+    color: var(--clr-secondary-100);
+
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+
+    font-size: 0.875rem;
+    font-weight: var(--fw-regular);
+}
+
+.attribution {
+    font-size: 1rem; 
+    text-align: center; 
+
+    margin-top: auto;
+}
+
+.attribution {
+    font-size: 0.9rem;
+    text-align: center;
+
+    margin-top: 190px;
+    margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-secondary-200);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
