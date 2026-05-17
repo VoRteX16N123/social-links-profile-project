@@ -90,6 +90,8 @@ body {
 
     display: grid;
     place-content: center;
+    min-height: 100vh;
+    padding: 1.5rem;
 }
 
 .profile {
@@ -102,7 +104,6 @@ body {
     overflow: hidden;
 
     margin: 0 1rem;
-    margin-top: 180px;
     max-width: 600px;
 
     width: min(24rem, calc(100% - 2rem));
