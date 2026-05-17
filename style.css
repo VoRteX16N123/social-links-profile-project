@@ -102,7 +102,7 @@ body {
     overflow: hidden;
 
     margin: 0 1rem;
-    margin-top: 120px;
+    margin-top: 180px;
     max-width: 600px;
 
     width: min(24rem, calc(100% - 2rem));
