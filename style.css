@@ -91,7 +91,6 @@ body {
     display: grid;
     place-content: center;
     min-height: 100vh;
-    padding: 1.5rem;
 }
 
 .profile {
@@ -196,7 +195,7 @@ img {
     font-size: 0.9rem;
     text-align: center;
 
-    margin-top: 190px;
+    margin-top: 1rem;
     margin-bottom: 10px;
 }
 
